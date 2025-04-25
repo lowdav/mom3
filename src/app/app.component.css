@@ -1,0 +1,19 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(246, 253, 253);
+}
+
+main {
+    flex-grow: 1;
+    padding: 50px;
+}
+
+app-header, app-footer {
+    flex-shrink: 0;
+    background-color: #638bb9;
+    color: white;
+}
