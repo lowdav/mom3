@@ -1,1 +1,18 @@
-<p>convert works!</p>
+<div class="wrapper">
+<h1>Konvertera</h1>
+<div class="temp">
+<h2>Temperatur</h2>    
+    <label for="num1">Konvertera</label>
+    <input type="number" id="num1"[(ngModel)]="num1">
+    <select id="temptype" (change)="printUnit()" [(ngModel)]="temptype" >
+        <option value="C">Celsius</option>
+        <option value="F">Fahrenheit</option>
+    </select>
+    <p>till {{ othertype }}</p>
+
+    <button (click)="ConvertTemp()">Konvertera!</button>
+
+    <p class="result">Resultat: {{ result }} {{ othertype }} </p>
+
+</div>
+</div>
