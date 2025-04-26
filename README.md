@@ -1,4 +1,8 @@
-# Mom3
+# Mom3 - Typescript 
+
+Detta är uppgiften för moment 3 i Typescriptkursen.
+
+# Project created with Angular
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.9.
 
