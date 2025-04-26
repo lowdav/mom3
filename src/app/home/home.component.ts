@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+homepageimage: string = "/pictures/robot_converting.jpg";  
 }
+
+

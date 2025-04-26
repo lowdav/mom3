@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './notfound.component.css'
 })
 export class NotfoundComponent {
+  robot404: string = "/pictures/robot404.jpg";  
 
 }
