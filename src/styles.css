@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+/* Lagt till lite CSS som jag använder globalt */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.textcontainer {
+    max-width: 70ch;
+    margin: auto;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+h1, h2, p {
+    margin-bottom: 0.8rem;
+}

@@ -1,0 +1,17 @@
+<div class="wrapper">
+<h1>Konvertera</h1>
+<div class="temp">
+
+    <label for="num1">Konvertera</label>
+    <input type="number" id="num1"[(ngModel)]="num1" (input)="convert()">
+    <select id="type" (change)="convert()" [(ngModel)]="type" >
+        <option value="C">Celsius</option>
+        <option value="F">Fahrenheit</option>
+        <option value="M">Meter</option>
+        <option value="FT">Fot (Feet)</option>
+    </select>
+    <p>till {{ othertype }}</p>
+
+    <p class="result" *ngIf="showresult">{{num1}} {{ firsttype }} = <br> {{ result }} {{ othertype }} </p>
+</div>
+</div>

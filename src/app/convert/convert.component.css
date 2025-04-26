@@ -1,0 +1,27 @@
+.wrapper {
+    max-width: 500px;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+.temp {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label, input, select, button, p {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.result {
+    font-weight: bold;
+    padding: 30px;
+    text-align: center;
+    background-color: #638bb9;
+    color: white;
+    font-size: 1.8rem;
+}
