@@ -3,8 +3,8 @@
 <div class="temp">
 
     <label for="num1">Konvertera</label>
-    <input type="number" id="num1"[(ngModel)]="num1">
-    <select id="type" (change)="printUnit()" [(ngModel)]="type" >
+    <input type="number" id="num1"[(ngModel)]="num1" (input)="convert()">
+    <select id="type" (change)="convert()" [(ngModel)]="type" >
         <option value="C">Celsius</option>
         <option value="F">Fahrenheit</option>
         <option value="M">Meter</option>
@@ -12,9 +12,6 @@
     </select>
     <p>till {{ othertype }}</p>
 
-    <button (click)="convert()">Konvertera!</button>
-
-    <p class="result">Resultat: {{ result }} {{ othertype }} </p>
-
+    <p class="result" *ngIf="showresult">{{num1}} {{ firsttype }} = <br> {{ result }} {{ othertype }} </p>
 </div>
 </div>

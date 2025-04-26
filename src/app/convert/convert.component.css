@@ -14,8 +14,14 @@ h1 {
 
 label, input, select, button, p {
     font-size: 1.5rem;
+    padding: 10px;
 }
 
 .result {
     font-weight: bold;
+    padding: 30px;
+    text-align: center;
+    background-color: #638bb9;
+    color: white;
+    font-size: 1.8rem;
 }
